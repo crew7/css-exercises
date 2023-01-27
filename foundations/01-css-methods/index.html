@@ -5,10 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Methods for Adding CSS</title>
+    <style>
+      .redbox{
+        background-color: red;
+        color: white;
+        width: 450px;
+        font-size: 30px;
+        font-style: monospace;
+        text-align: center;
+        font-weight: bold;
+      }
+      .greenbox{
+        background-color: green;
+        width: 450px;
+        color: white;
+      }
+      .inlinebox{
+        background-color: orange;
+        border-color: slategray;
+      }
+
+    </style>
   </head>
   <body>
-    <div>Style me via the external method!</div>
-    <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+    <div class="redbox">Style me via the external method!</div>
+    <p class="greenbox">I would like to be styled with the internal method, please.</p>
+    <button class="inlinebox">Inline Method</button>
   </body>
 </html>

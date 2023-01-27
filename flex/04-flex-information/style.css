@@ -10,17 +10,25 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  padding-bottom: 32px;
 }
 
-/* do not edit this footer */
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 52px;
+.everything{
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  background: #eee;
+  align-items: center;
+}
+.icons{
+  display: flex;
+  gap: 52px;
+}
+.individualIcons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 200px;
+  align-items: center;
+  text-align: center;
 }
